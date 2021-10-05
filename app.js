@@ -10,6 +10,12 @@ function simpleBtnEvent(){
     extendedBtn.classList.remove("active-btn")
     extendedBtn.classList.add("inactive-btn")
 
+    let formWrapper = document.getElementsByClassName("form-wrapper")[0];
+    let header = document.getElementsByClassName("header")[0];
+
+    formWrapper.style.maxWidth = "780px";
+    header.style.maxWidth = "780px"
+
     let simpleForm = document.getElementById("simple-form") 
     simpleForm.style.display = "block";
 
@@ -187,6 +193,12 @@ function extendedBtnEvent(){
     extendedBtn.classList.add("active-btn")
     simpleBtn.classList.remove("active-btn")
     simpleBtn.classList.add("inactive-btn")
+
+    let formWrapper = document.getElementsByClassName("form-wrapper")[0];
+    let header = document.getElementsByClassName("header")[0];
+
+    formWrapper.style.maxWidth = "1300px";
+    header.style.maxWidth = "1300px"
 
     let simpleForm = document.getElementById("simple-form") 
     simpleForm.style.display = "none";

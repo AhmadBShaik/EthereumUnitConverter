@@ -6,8 +6,9 @@
 }
 
 body{
-    background-color: rgb(177, 235, 177);
+    background-color: #b1ebb1;
     padding: 0 10px;
+    padding-top: 5px;
 }
 
 hr.seperator{
@@ -43,7 +44,7 @@ hr.seperator{
 
 
 .form-wrapper, .header{
-    max-width: 1200px;
+    max-width: 900px;
     width: 100%;
     background-color:#fff;
     margin: 5px auto;
@@ -69,11 +70,11 @@ hr.seperator{
 
 
 .form-wrapper .input_field label{
-    width: 370px;
+    width: 515px;
 }
 
 .form-wrapper .input_field input{
-    max-width: 780px;
+    max-width: 900px;
     width: 100%;
     outline: none;
     border: 1px solid rgb(52, 185, 52);
@@ -88,9 +89,9 @@ hr.seperator{
 }
 
 .form-wrapper .simple-form .input_field input{
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .form-wrapper .simple-form .input_field label{
-    max-width: 200px;
+    max-width: 70px;
 }
