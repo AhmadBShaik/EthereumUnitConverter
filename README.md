@@ -9,6 +9,8 @@ It have three units which are widely used by people
 - Gwei
 - Ether 
 
+![](images/simple.png)
+
 Extended Converter
 ------------------
 It have eight more units which are less frequently used along with Wei, Gwei and Ether.
@@ -22,5 +24,7 @@ It have eight more units which are less frequently used along with Wei, Gwei and
 - Mether
 - Gether
 - Tether
+
+![](images/extended.png)
 
 click [here](https://ahmadbshaik.github.io/ethereum-unit-converter) for live demo
